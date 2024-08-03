@@ -1,0 +1,67 @@
+:root{
+    --cool-dark: #222728;
+}
+
+.bg-cool-dark{
+    background-color: var(--cool-dark);
+}
+
+.profile-banner{
+    background-color: #222728;
+    margin-bottom: 100px;
+}
+
+.profile-container{
+    position: relative;
+    top: 65px;
+}
+
+.profile-container > div:first-child{
+    width: 40%;
+}
+
+.profile-container > div:nth-child(2){
+    width: 60%;
+}
+
+.profile-container > div > img{
+    border-radius: 100%;
+    width: min(200px, 50%);
+    height: min(200px, 50%);
+    border: 1px solid var(--green);
+}
+
+.profile-btn{
+    text-decoration: none;
+    color: var(--green);
+    border: 1px solid var(--green);
+    padding: 10px 20px;
+    background-color: #002e19;
+    border-radius: 30px;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.name{
+    font-size: 1.5rem;
+}
+.username{
+    font-size: 1.2rem;
+}
+@media only screen and (max-width: 1200px) {
+    .profile-container {
+        position: static;
+    }
+    .profile-container > div:first-child {
+        position: static;
+        width: 100%;
+    }
+    .profile-container > div:first-child > img{
+        width: min(150px, 50%);
+        height: min(150px, 50%);
+    }
+    .profile-container > div:nth-child(2) {
+        width: 100%;
+        font-size: 0.9rem !important;
+    }
+  }
