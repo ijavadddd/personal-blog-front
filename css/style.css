@@ -68,6 +68,7 @@ body {
 
 .header-titles{
     padding: 20px 0;
+    flex-wrap: wrap;
 }
 
 .header-title{
@@ -174,7 +175,7 @@ body {
     box-shadow: var(--green) 0px 25px 32px -30px inset;
 }
 
-.follow-btn{
+.follow-btn, .green-btn{
     transition: all 0.7s;
     background-color: var(--black);
     color:var(--green);
@@ -193,9 +194,40 @@ body {
     transition: all 0.7s;
 }
 
-.follow-btn:hover , .profile-btn:hover{
+.follow-btn:hover , .green-btn:hover, .profile-btn:hover{
 
     background-color: var(--green)!important;
     color:black;
 }
 
+.coffe-btn{
+    margin: 10px;
+    background-color: #954d1a;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    transition: all 0.7s;
+    border-radius: 0;
+}
+.coffe-btn:hover{
+    background-color: #9c653e;
+    color: white;
+}
+
+.login-form{
+    background-color: #1a1a1a;
+    padding: 70px 10px 40px 10px;
+    border: 1px solid var(--green);
+    border-radius: 5px;
+}
+
+.login-input{
+    border: none;
+    border-bottom: 1px solid var(--green);
+}
+
+.form-width{
+    max-width: min(590px, 100%);
+}

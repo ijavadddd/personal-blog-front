@@ -55,59 +55,26 @@
     </div>
 
     <!-- start body -->
-    <div class="body pt-5 container-fluid">
-        <div class="container d-flex justify-content-start align-items-center flex-wrap">
-
-            <!-- article sample horizental card -->
-            <div class="p-2 col-md-6">
-                <div class="card mb-3 border-green bg-black text-wheat">
-                    <div class="row g-0">
-                        <div class="col-md-4 d-flex align-items-center justify-content-center">
-                        <img src="images/190x80.gif" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                            <span class="material-symbols-outlined">bookmark_add</span>
-                            <a href="#" class="text-green decoration-none float-end mb-2">Continue Reading »</a>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-            </div>
-            <!-- end article sample horizental card -->
-      
-            <!-- article sample card -->
-            <div class="col-md-3">
-                <div class="card m-2 border-green bg-black text-wheat">
-                    <img src="images/190x80.gif" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <span class="material-symbols-outlined">bookmark_add</span>
-                        <a href="#" class="text-green decoration-none float-end">Continue Reading »</a>
-                    </div>
+    <div class="container-fluid">
+        <div class="container py-5 form-width">
+            <form class="login-form my-5">
+                <h3 class="text-center text-green fw-bolder fs-1 mb-4">LOGIN</h3>
+                <div class="form-group mb-4">
+                  <!-- <label for="exampleInputEmail1" class="text-gray pb-2">Email address</label> -->
+                  <input type="email" class="form-control form-input login-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted text-green">We'll never share your email with anyone else.</small>
                 </div>
-            </div>
-            <!-- end article sample card -->
-
+                <div class="form-group mb-4">
+                  <!-- <label for="exampleInputPassword1" class="text-gray pb-2">Password</label> -->
+                  <input type="password" class="form-control form-input login-input" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-check mb-4">
+                    <label class="form-check-label text-gray pb-2" for="exampleCheck1">REMEMBER ME</label>
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                </div>
+                <button type="submit" class="btn btn-primary follow-btn w-100 py-2">LOGIN</button>
+              </form>
         </div>
-
-        <!-- start paginator -->
-        <div class="container py-5 paginator">
-            <nav aria-label="paginator">
-                <ul class="pagination">
-                  <li class="page-item"><a class="page-link border-green text-green bg-black" href="#">Previous</a></li>
-                  <li class="page-item"><a class="page-link border-green text-green bg-black" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link border-green text-green bg-black" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link border-green text-green bg-black" href="#">3</a></li>
-                  <li class="page-item"><a class="page-link border-green text-green bg-black" href="#">Next</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!-- end paginator -->
     </div>
     <!-- end body -->
 
